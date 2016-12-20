@@ -38,5 +38,13 @@ Start small... - 12:40
 -----------------------
 To start with, I'll ensure I can run a simple to-do list app on my local machine. You can find the High Level Designs in plan0.1/
 
+Code written - 14:07
+-------------
+Whilst I always promote a behaviour-driven (and as such, a test-driven) approach to software development, I am just hacking a few things together right now. Once I am ready to set-up CI, I will ensure that I have the appropriate unit and integration tests.
+
+Until then, I have an untested Bootstrap page, using JQuery to call a Node JS API which stores my To-do list in MongoDB. Right now this is all running on my local machine. Time to move it to the cloud.
+
+
+
 
 Next up: Planning
