@@ -1,0 +1,13 @@
+@startuml
+WebClient -> TodoAPI : GET /todos
+TodoAPI -> DB : Read Todo List
+DB --> TodoAPI : Todo List
+TodoAPI --> WebClient : 200 OK + Todo List
+
+
+
+WebClient -> TodoAPI : POST /todos + Todo Item
+TodoAPI -> DB : Create Todo Record
+DB --> TodoAPI : Success
+TodoAPI --> WebClient : 201 Created
+@enduml

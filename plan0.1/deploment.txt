@@ -1,0 +1,16 @@
+@startuml
+actor User
+node LocalMachine [
+Nginx - Static Content
+]
+
+node LocalMachine2 [
+Node JS API
+]
+
+database MongoDB
+
+User--LocalMachine
+LocalMachine--LocalMachine2
+LocalMachine2--MongoDB
+@enduml

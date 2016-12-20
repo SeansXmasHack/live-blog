@@ -34,4 +34,9 @@ sudo apt-get install -y plasma-desktop vim git tmux xinit xfce4-terminal firefox
 curl -sSl https://get.docker.com | sh
 ```
 
+Start small... - 12:40
+-----------------------
+To start with, I'll ensure I can run a simple to-do list app on my local machine. You can find the High Level Designs in plan0.1/
+
+
 Next up: Planning
